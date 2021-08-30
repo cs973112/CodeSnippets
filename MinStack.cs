@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace CodeSnippets
 {
-    //public class MinStack<T> : IComparable<T>
+    
     public class MinStack<T> where T : IComparable
     {
         private readonly Stack<T> stack = new Stack<T>();
@@ -47,11 +47,5 @@ namespace CodeSnippets
         public T Top() => stack.Peek();
         public T GetMin() => min;
 
-
-        //    public int CompareTo(T? other)
-        //    {
-        //        throw new NotImplementedException();
-        //    }
-        //}
     }
 }
