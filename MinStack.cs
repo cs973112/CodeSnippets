@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
-namespace InterviewCityNational
+namespace CodeSnippets
 {
     //public class MinStack<T> : IComparable<T>
     public class MinStack<T> where T : IComparable
